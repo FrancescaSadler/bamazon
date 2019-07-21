@@ -43,5 +43,40 @@
 
 
 ## Customer Demo 
+https://drive.google.com/file/d/1QNU0cR3Dnnv0vJS2_c1WW56A83n8VuN9/view
 
-https://drive.google.com/file/d/1Zw8re4G74JuwIVB-86sZPrxHyVvRXEzq/view
+
+
+
+# Requirements for Manager Bamazon
+- If a manager selects View Products for Sale, the app should list every available item: the item IDs, names, prices, and quantities.
+- If a manager selects View Low Inventory, then it should list all items with an inventory count lower than five.
+- If a manager selects Add to Inventory, your app should display a prompt that will let the manager "add more" of any item currently in the store.
+
+ # Tech Used
+ - Node.js
+ - JavaScript
+ - MySQL - MAMP
+
+# How it works: 
+
+ - The user is greeted with a raw list (from inquirer). User choses one of the follow options.. 
+
+         1) View Products for Sale
+         2) View Low Inventory
+         3) Add to Inventory
+         4) Exit
+
+
+
+- Prompt 1 directs you to inventory table
+
+- Prompt 2 directs you to inventory less than 500
+
+- Prompt 3 allows you to choose product id and increase that unique id's total quantity
+
+-Prompt 4 allows you to exit
+
+
+## Manager Demo 
+https://drive.google.com/file/d/110v_vigIilISWg7M09PqH6jDH4h1ZxND/view

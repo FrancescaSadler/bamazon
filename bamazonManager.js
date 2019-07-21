@@ -11,7 +11,7 @@ var connection = mysql.createConnection({
 });
 
 connection.connect(function () {
-    console.log(`Connected as id ${connection.threadId}`);
+    // console.log(`Connected as id ${connection.threadId}`);
     startMenu();
 });
 
@@ -54,7 +54,7 @@ function viewProducts() {
 }
 
 function viewLowInventory() {
-    connection.query(" SELECT * FROM products WHERE quantity < 200", function (err, res){
+    connection.query(" SELECT * FROM products WHERE quantity < 500", function (err, res){
         if (err) throw err; 
         console.table(res);
 

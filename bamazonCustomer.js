@@ -13,7 +13,7 @@ var connection = mysql.createConnection({
 });
 
 connection.connect(function () {
-  console.log(`Connected as id ${connection.threadId}`);
+  // console.log(`Connected as id ${connection.threadId}`);
   showProducts();
 });
 
